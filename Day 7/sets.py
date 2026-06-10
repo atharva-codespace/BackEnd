@@ -1,0 +1,10 @@
+python={"Ram","Sita","Gita","Rahul"}
+mern={"Ram","Ramesh","Gita","Shyam"}
+
+print("---------------------------------------------------------------")
+print("Name of all students:",(python | mern))
+print("Name of the students wow enrolled in both course are:",(python & mern))
+print("Name of the students wow enrolled only in Python:",(python - mern))
+print("Name of the students wow enrolled only in MERN:",(mern - python))
+print("Name of the students who are not in bot courses",(python ^ mern))
+print("---------------------------------------------------------------")
