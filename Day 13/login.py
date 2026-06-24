@@ -12,7 +12,7 @@ class Login:
         self.start_time = time.time()
 
         print("\nYour OTP is:", self.otp)
-        print("Valid for 60 seconds")
+        print("Valid for 30 seconds")
 
     def verify_otp(self):
         user_otp = int(input("Enter OTP: "))
