@@ -24,23 +24,3 @@ for i in range(1, mid+1):
         print(" "*(mid-i) +"*", end="")
         print(" "*(i*2-1) +"*")
 
-'''
-n = 6
-
-for i in range(n):
-    for j in range(n):
-        if i == 0 or j == i or j == n - i - 1:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
-
-
-for i in range(n - 2, -1, -1):
-    for j in range(n):
-        if i == 0 or j == i or j == n - i - 1:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
-'''
