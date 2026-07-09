@@ -13,6 +13,6 @@ with open("myfile.txt","r") as f:
     print(data)
 
 with open("myfile.txt","a") as f:
-    f.write("\nnew data appended.")
+    f.write("\nnew data appended")
     print("data appended")
 
