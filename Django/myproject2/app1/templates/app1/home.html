@@ -1,0 +1,21 @@
+{% load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='{%static "css/externalcss.css" %}'>
+</head>
+<body>
+    <h1>Welcome to my first home page</h1>
+    <br>
+    <button onclick="getvalues()">Click me</button>
+    <img src='{%static "assets/image.png"%}'>
+    <script src='{%static "js/script.js"%}'></script>
+    <br>
+    <br>
+    <a href="{%url 'about' %}">About page</a><br>
+    <a href="{%url 'contact' %}">Contact page</a>
+</body>
+</html>
